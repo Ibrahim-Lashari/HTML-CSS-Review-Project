@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  background-image: url("assets/images/aidan-hancock-8RU4OuA6Yug-unsplash.png");
+  background-color: #cccccc;
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-5%, -50%);
+  color: #141414;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.gray {
+  color: #787878;
+}
+
+.bck-gray {
+  background-color: #F5F5F5;
+}
+
+#font-Mont {
+  font-family: 'Montserrat', sans-serifs;
+}
+
+.bck-blue {
+  background-color: #10C9C3;
+}
+
+#blue {
+  color: #10C9C3;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.smth {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.bckg-gray {
+  background-color: #cccccc;
+}
+
+.graaaay {
+  color: #F5F5F5;
+}
+<<<<<<< HEAD
+.textpadding {
+  padding-top: 69px;
+}
+
+.logo {
+  margin:10px;
+  padding:10px;
+  margin-left:20px;
+}
+=======
+>>>>>>> aa577023ef992aaf7c649aec154b25b3942cc2ec
