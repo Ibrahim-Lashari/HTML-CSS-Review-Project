@@ -65,7 +65,6 @@ body {
 .graaaay {
   color: #F5F5F5;
 }
-<<<<<<< HEAD
 .textpadding {
   padding-top: 69px;
 }
@@ -75,5 +74,53 @@ body {
   padding:10px;
   margin-left:20px;
 }
-=======
->>>>>>> aa577023ef992aaf7c649aec154b25b3942cc2ec
+
+------------------------------------------------------------------------------
+.imageoverlay:hover {
+  opacity: 0.8;
+  transition: 1s ease;
+}
+
+.contain {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 40%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.iconoverlay {
+  background-color: #000000;
+  opacity: 0.75;
+  font-size: 16px;
+  padding: 150px 163px;
+}
+
+.contain {
+  width: 50%;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.contain:hover .image {
+  opacity: 0.3;
+}
+
+.contain:hover .middle {
+  opacity: 1;
+}
